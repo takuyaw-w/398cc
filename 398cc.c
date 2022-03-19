@@ -192,6 +192,7 @@ Node *primary() {
         expect(')');
         return node;
     }
+    return new_num(expect_number());
 }
 
 /**
